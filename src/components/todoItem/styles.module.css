@@ -1,0 +1,21 @@
+.todoItem{
+    @apply w-full my-5 flex justify-center
+}
+.todoBody{
+    @apply w-11/12 flex justify-center bg-dark-tertiary rounded
+}
+.closerContainer{
+    @apply translate-x-[-28px] translate-y-[-13px]
+}
+.contentContainer{
+    @apply w-3/4 h-20 flex justify-center items-center
+}
+.checkerContainer{
+    @apply  flex items-center
+}
+.checked{
+    @apply line-through decoration-4  text-graylight
+}
+.checked p{
+    @apply text-graylight
+}

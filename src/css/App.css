@@ -4,8 +4,17 @@
 
 
 body {
-    background-color: #16171E;
+    
+    @apply bg-contain bg-no-repeat bg-gradient-to-tr from-black via-black to-ultramarine h-[100vh];
 }
 p{
-    color: white;
+    @apply text-white;
 }
+
+#root {
+    @apply max-w-[500px] m-auto
+}
+
+
+
+

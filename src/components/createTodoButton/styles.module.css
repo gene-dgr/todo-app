@@ -1,0 +1,6 @@
+.todoButton{
+    @apply  w-[50px] h-[50px] bg-coral rounded-full text-white text-3xl m-6
+}
+.createContainer{
+    @apply fixed w-full flex justify-end items-end bottom-0
+}

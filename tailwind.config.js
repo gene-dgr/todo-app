@@ -12,19 +12,21 @@ module.exports = {
       xl: '1440px',
     },
     colors: {
-      'blue': '#1fb6ff',
-      'purple': '#7e5bef',
-      'pink': '#ff49db',
-      'orange': '#ff7849',
-      'green': '#13ce66',
-      'yellow': '#ffc82c',
-      'gray-dark': '#273444',
-      'gray': '#8492a6',
-      'gray-light': '#d3dce6',
+      'ultramarine': '#10143B',
+      'black': '#000000',
+      'white': '#FFFFFF',
+      'coral': '#FF776C',
+      'purple': '#3E2DB7',
+      'rat': '#965299',
+      'dark-primary': '#0E0E0E',
+      'dark-secondary': '#232323',
+      'dark-tertiary' : '#0B0B0B',
+      'graylight' : '#9b8b8b'
     },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
+      quicksand: ['Quicksand', 'serif'],
     },
     extend: {
       spacing: {

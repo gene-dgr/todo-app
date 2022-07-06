@@ -8,15 +8,14 @@ import checked from '../../assets/icons/checked.png';
 function TodoItem(props){
 
     // console.log(props)
-    const onDelete = () => {
-        alert('Se eliminó la tarea');
-    }
+    
+    
     return (
         <li key={props.key} className={ styles.todoItem } style={{color: "gray"}}>
             <div className={ styles.todoBody }>
 
                 <div className={ styles.closerContainer}>
-                    <span onClick={ () => { onDelete() }}>
+                    <span onClick={ props.onDelete }>
                         <img src={ close } />
                     </span>
                 </div>
@@ -26,7 +25,7 @@ function TodoItem(props){
                 </div>  
 
                 <div className={ styles.checkerContainer }>
-                    <span >
+                    <span onClick={ props.onComplete } >
                         <img src={ !props.completed ? unchecked : checked }/>
                     </span>
                 </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import styles from './styles.module.css';
 
-function TodoSearch(){
+function TodoSearch({searchValue, setSearchValue}){
 
-    const [ searchValue, setSearchValue ] = React.useState('');
+    // const [ searchValue, setSearchValue ] = React.useState('');
 
     const onSearchValueChange = (event) => {
         console.log(event.target.value);
@@ -19,7 +19,7 @@ function TodoSearch(){
             onChange={ onSearchValueChange }
             />
         </div>,
-        <p>{searchValue}</p>
+        // <p>{searchValue}</p>
         
     ];
 }

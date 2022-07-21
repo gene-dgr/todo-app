@@ -2,8 +2,8 @@ import React, { useState, useEffect } from 'react';
 import './css/App.css';
 import { TodoCounter } from './components/todoCounter';
 import { TodoSearch } from './components/todoSearch';
-import { TodoList } from './components/todoList/TodoList';
-import { TodoItem } from './components/todoItem/TodoItem';
+import { TodoList } from './components/todoList';
+import { TodoItem } from './components/todoItem';
 import { CreateTodoButton } from './components/createTodoButton';
 
 const defaultTodos = [

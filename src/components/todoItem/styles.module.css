@@ -2,7 +2,7 @@
     @apply w-full my-5 flex justify-center
 }
 .todoBody{
-    @apply w-11/12 flex justify-center bg-dark-tertiary rounded
+    @apply w-11/12 flex justify-center bg-white/[.02] rounded
 }
 .closerContainer{
     @apply translate-x-[-28px] translate-y-[-13px]
